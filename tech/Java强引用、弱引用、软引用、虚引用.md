@@ -16,7 +16,7 @@ SoftReference<String> softRef = new SoftReference<>(str);   // 软引用
 ```java
 if(JVM内存不足) {
     // 将软引用中的对象引用置为null
-    str = null;
+    str = null; // SoftReference 中的 str
     // 通知垃圾回收器进行回收
     System.gc();
 }
