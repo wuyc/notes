@@ -14,3 +14,4 @@ synchronized 块里的非原子操作依旧可能发生指令重排。
 - https://juejin.im/post/5d5c9fbce51d4561cd246641
 - https://www.zhihu.com/question/337265532
 - https://zh.wikipedia.org/wiki/双重检查锁定模式
+- https://www.zhihu.com/question/46903811
